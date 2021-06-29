@@ -1,0 +1,49 @@
+    nav {
+    border-style: solid;
+    border-width: 0.15em;
+    border-color: black;
+    border-radius: 2em;
+    padding: 1em; 
+    font-family: 'Roboto Mono', monospace;
+}
+nav a {
+    padding-left:
+5em; color:darkviolet; font-family: 
+'Roboto Mono', monospace;
+    }
+.row{
+    display: flex;
+}
+.left-column{
+    height: 40vh; flex: 40%;
+}
+.right-column{
+    height: 40vh; 
+    flex: 60%;
+    background-position: center;
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+#right-col-home{
+    background-image: url(images/June\ 29\,\ 2021.gif);
+}
+#right-col-about{
+    background-image: url(images/depositphotos_39479909-stock-photo-about-us-blue-marker.jpg);
+}
+.main-heading {
+    font-family: 'Roboto Mono', monospace; font-size: 2em; 
+    color: black; 
+    padding-top: 1em
+}
+#content-area {
+    font-family: 'Roboto Mono', monospace; 
+    margin-top: 6em;
+}
+#layout-container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#password-area{
+    margin-top: 5em;
+}
